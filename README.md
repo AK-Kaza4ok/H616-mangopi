@@ -6,7 +6,7 @@ DTS file for setting MQ-Quad
 
 ```ps
 sudo apt-get install sunxi-tools device-tree-compiler rpi.gpio-common
-
+git clone https://github.com/AK-Kaza4ok/H616-mangopi
 cd /boot/dtb/allwinner/
 dtc -I dts -O dtb -f sun50i-h616-orangepi-zero2.dts -o sun50i-h616-orangepi-zero2.dtb
 ```
